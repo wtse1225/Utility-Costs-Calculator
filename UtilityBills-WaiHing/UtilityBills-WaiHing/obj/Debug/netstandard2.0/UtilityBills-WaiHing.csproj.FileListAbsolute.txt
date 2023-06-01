@@ -1,0 +1,15 @@
+C:\Users\ixus_\Desktop\MAP_projects\UtilityBills-WaiHing\UtilityBills-WaiHing\bin\Debug\netstandard2.0\UtilityBills-WaiHing.deps.json
+C:\Users\ixus_\Desktop\MAP_projects\UtilityBills-WaiHing\UtilityBills-WaiHing\bin\Debug\netstandard2.0\UtilityBills-WaiHing.dll
+C:\Users\ixus_\Desktop\MAP_projects\UtilityBills-WaiHing\UtilityBills-WaiHing\bin\Debug\netstandard2.0\UtilityBills-WaiHing.pdb
+C:\Users\ixus_\Desktop\MAP_projects\UtilityBills-WaiHing\UtilityBills-WaiHing\obj\Debug\netstandard2.0\UtilityBills-WaiHing.csproj.AssemblyReference.cache
+C:\Users\ixus_\Desktop\MAP_projects\UtilityBills-WaiHing\UtilityBills-WaiHing\obj\Debug\netstandard2.0\UtilityBills-WaiHing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ixus_\Desktop\MAP_projects\UtilityBills-WaiHing\UtilityBills-WaiHing\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ixus_\Desktop\MAP_projects\UtilityBills-WaiHing\UtilityBills-WaiHing\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ixus_\Desktop\MAP_projects\UtilityBills-WaiHing\UtilityBills-WaiHing\obj\Debug\netstandard2.0\UtilityBills-WaiHing.AssemblyInfoInputs.cache
+C:\Users\ixus_\Desktop\MAP_projects\UtilityBills-WaiHing\UtilityBills-WaiHing\obj\Debug\netstandard2.0\UtilityBills-WaiHing.AssemblyInfo.cs
+C:\Users\ixus_\Desktop\MAP_projects\UtilityBills-WaiHing\UtilityBills-WaiHing\obj\Debug\netstandard2.0\UtilityBills-WaiHing.csproj.CoreCompileInputs.cache
+C:\Users\ixus_\Desktop\MAP_projects\UtilityBills-WaiHing\UtilityBills-WaiHing\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ixus_\Desktop\MAP_projects\UtilityBills-WaiHing\UtilityBills-WaiHing\obj\Debug\netstandard2.0\UtilityBills-WaiHing.dll
+C:\Users\ixus_\Desktop\MAP_projects\UtilityBills-WaiHing\UtilityBills-WaiHing\obj\Debug\netstandard2.0\refint\UtilityBills-WaiHing.dll
+C:\Users\ixus_\Desktop\MAP_projects\UtilityBills-WaiHing\UtilityBills-WaiHing\obj\Debug\netstandard2.0\UtilityBills-WaiHing.pdb
+C:\Users\ixus_\Desktop\MAP_projects\UtilityBills-WaiHing\UtilityBills-WaiHing\obj\Debug\netstandard2.0\ref\UtilityBills-WaiHing.dll

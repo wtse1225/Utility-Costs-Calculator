@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UtilityBills_WaiHing.MainPage"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="true">
+
+    <StackLayout>
+        <!--Header Label-->
+        <Label Text="Utility Bill Calculator" FontSize="Title" FontAttributes="Bold" HorizontalTextAlignment="Center" Padding="0,80,0,0"/>
+        
+        <!--Main Flexout container-->
+        <FlexLayout Direction="Column" AlignItems="Start" JustifyContent="SpaceEvenly" Padding="20,30,0,0">
+
+            <!--Province picker-->
+            <Label Text="Choose Your Province" FontSize="Medium"/>
+            <Picker x:Name="picker"
+                    FontSize="Small"
+                    Title="Select your province"
+                    SelectedIndexChanged="picker_SelectedIndexChanged"
+                    SelectedItem="picker_SelectedIndexChanged">
+            </Picker>                
+            
+            <!--Daytime usage input-->
+            <Label Text="Daytime usage (kwh)" FontSize="Medium" Padding="0,20,0,0"/>
+            <Entry x:Name="dayTime"
+                   Keyboard="Numeric"
+                   FontSize="Small" 
+                   Placeholder="Enter the daytime usage" />
+
+            <!--Evening usage input-->
+            <Label Text="Evening usage (kwh)" FontSize="Medium" Padding="0,20,0,0"/>
+            <Entry x:Name="nightTime"
+                   Keyboard="Numeric"
+                   FontSize="Small" 
+                   Placeholder="Enter the evening usage" />
+    
+            <!--Toggle, Flex direction changes based on device system-->
+            <FlexLayout Direction="{ OnPlatform Android=Row, iOS=Column }" HeightRequest="70" 
+                        AlignItems="{ OnPlatform Android=Center, iOS=Start }" JustifyContent="Center">
+                
+                <Label Text="Did you use a renewable energy source?" FontSize="Medium" />
+                <Switch x:Name="toggle" IsToggled="False" />
+                
+            </FlexLayout>
+            
+            
+            <!--Nested Flexout for buttons (HeightRequest element is REQUIRED)-->
+            <FlexLayout Direction="Row" HeightRequest="60" AlignItems="Center" JustifyContent="Center" >
+
+                <Button Text="CALCULATE" Clicked="Button_Clicked" BackgroundColor="LightBlue" Margin="0,0,5,0"/>
+                <Button Text="RESET" Clicked="Button_Clicked_1" BackgroundColor="LightBlue"  Margin="0,0,5,0" />
+                
+            </FlexLayout>
+            
+            <!--Error Text-->
+            <Label x:Name="error" TextColor="DarkRed" IsVisible="False" />
+            
+        </FlexLayout>
+
+        <!--Charge Breakdown section-->
+        <FlexLayout x:Name="breakdownSection"  Direction="Column" Padding="20,0,0,0" IsVisible="false">           
+            
+            <Label x:Name="breakdown" Text="Charge Breakdown" FontSize="Large" HorizontalTextAlignment="Center" Padding="0,10,0,10" />
+            
+            <Label x:Name="dayChargeLabel" Text="dayChargeLabel" FontSize="Medium" />
+            
+            <Label x:Name="eveningChargeLabel" Text="eveningChargeLabel" FontSize="Medium"/>
+            
+            <Label x:Name="totalUsageChargeLabel" Text="totalUsageChargeLabel" FontSize="Medium"/>
+
+            <Label x:Name="salesTaxLabel" Text="salesTaxLabel" FontSize="Medium" />
+
+            <Label x:Name="rebateLabel" Text="rebateLabel" FontSize="Medium" IsVisible="false"/>
+
+            <Label x:Name="totalLabel" Text="totalLabel" FontSize="Medium" BackgroundColor="GreenYellow" HorizontalTextAlignment="Center" Margin="20"/>
+            
+        </FlexLayout>
+    </StackLayout>
+</ContentPage>
